@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: rgb(227,230,230);    
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.navbar{
+    color: white;
+    height: 105px;
+}
+
+/* NAV-ÜST*/
+.nav-ust{
+    display: flex;    
+    padding: 5px;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: rgb(19,25,33);
+}
+.border:hover{
+    border: 1px solid white;
+}
+div.border{
+    padding: 0 10px;
+}
+a.border{
+    padding: 10px 5px;
+}
+.font-mini{
+    font-size: 12px;
+}
+.font-nav{
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    height: 35px;
+}
+.nav-konum a{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-konum a p i{
+    font-size: large;
+}
+.nav-search{
+    display: flex;
+    padding: 5px;
+    gap: 0;
+    position: relative;
+    width: 45%;
+}
+.nav-search .search-product{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-indent: 120px;                                        /* pedding-left yerine içerden başlamak için*/
+}
+.nav-search .search-product:focus{
+    outline: 3px solid orange;                              /* Varsayılan kenarlığı kaldırma */
+}
+.nav-search i.fa-magnifying-glass{
+    position: absolute;
+    font-size: large;
+    color: black;
+    background-color: rgb(254,189,105);
+    right: 5px;
+    top: 5px;
+    padding: 12.5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-search i.fa-magnifying-glass:hover{
+    background-color: rgb(229,168,19);
+    cursor: pointer;
+}
+.nav-search .categories{
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(230,230,230);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    outline: none;
+    height: 80%;
+    
+}
+.nav-hesap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-hesap select{
+    background-color: rgb(19,25,33);
+    color: white;
+    border: none;
+    margin-left: -5px;
+}
+.nav-siparis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-sepet{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-sepet i{
+    font-size: xx-large;
+}
+
+/* NAV-ALT */
+.nav-alt{
+    background-color: rgb(35,47,62);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    font-size: 11pt;
+}
+.nav-alt a:first-child{
+    font-weight: bold;
+}
+
+/* HERO SECTİON */
+.hero-section{
+    background-image: url(https://m.media-amazon.com/images/I/61nV9e3KxGL._SX3000_.jpg);
+    height: 300px;
+    width: 100%;
+    background-size:cover;
+}
+
+/* SHOP section */
+.shop-section .row{
+    display: flex;    
+    margin: 0 30px;
+    gap: 2%;
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    gap: 25px;
+    width: 25%;
+    position: relative;
+    height: 400px;
+}
+.box img{
+    width: 100%;
+}
+.box a.detay{
+    color: hsl(189, 41%, 46%);
+    font-weight: 500;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.box a.detay:hover{
+    color: red;
+}
+.box-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    column-gap:20px;
+}
+.box .image-with-text{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.box .image-with-text a:last-child{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.box .image-with-text span{
+    display: flex;
+}
+.box .image-with-text img{
+    width: 60%;
+    align-self: center;
+}
+.box .image-with-text span a.indirim{
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #CC0C39;
+    color: white;
+}
+.box .image-with-text span a.firsat{
+    padding: 5px 0;
+    margin: 5px;
+    background-color: white;
+    color: #CC0C39;
+    font-weight: 700;    
+}
+
+
+/* FIRSATLAR section */
+section.firsatlar{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+    gap: 20px;
+    padding: 30px 20px 10px;
+}
+section.firsatlar div a{
+    color: #007185;
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+section.firsatlar div a:hover{
+    color: #CC0C39;
+    text-decoration: underline;
+}
+section.firsatlar .row{
+    display: flex; 
+    overflow-x: auto;
+    gap: 1%;
+    margin-bottom: 20px;  
+    height: 260px;
+    max-height: 260px;
+}
+
+/* GÜNÜN FIRSATLARI */
+.box-gunun-firsatlari{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    min-width: 250px;
+}
+.box-gunun-firsatlari a:last-child{
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    white-space: nowrap; /* Metni satır içinde bırakır, taşma olunca alt satıra geçmez */
+    overflow: hidden; /* Taşan kısmı gizler */
+    text-overflow: ellipsis;
+}
+.box-gunun-firsatlari img{
+    height: 70%;
+    align-self: center;
+    background-color: #F7F7F7;
+    margin-bottom: 10px;
+}
+.box-gunun-firsatlari span{
+    display: flex;
+}
+.box-gunun-firsatlari span a.indirim{
+    padding: 4px;
+    margin: 5px 0;
+    background-color: #CC0C39;
+    color: white;
+}
+.box-gunun-firsatlari span a.firsat{
+    padding: 5px 0;
+    margin: 5px;
+    background-color: white;
+    color: #CC0C39;
+    font-weight: 700;    
+}
+
+/* FOOTER */
+footer button{
+    background-color: #485769;
+    display: block;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+footer button:hover{
+    background-color: #485769e7;
+}
+footer section{
+    background-color: #232F3E;
+}
+footer section .part1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    padding: 50px;
+}
+footer section .part1 .hakkimizda{
+    display: flex;
+    flex-direction: column;
+}
+.hakkimizda h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.hakkimizda a{
+    color: #DDDDDD;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+footer section .part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    color: white;
+    gap: 20px;
+}
+.countries{
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+}
+hr{
+    border: 1px solid #2E3948;
+}
+section.bottom{
+    background-color: #131A22;
+    height: 180px;
+}
+.foot-end h6{
+    color: #DDDDD1;
+    font-size: 12px;
+}
+.foot-end a{
+    color: #DDD;
+    font-size: smaller;
+}
+.bottom .part3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.foot-end{
+    display: flex;
+    flex-direction: column;
+}
+.bottom .part4{
+    display: flex;
+    flex-direction: column;
+    color: #DDD;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 12px; 
+}
+.part4 div{
+    display: flex;
+    gap: 20px;
+}
+
+

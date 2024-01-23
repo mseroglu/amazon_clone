@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+
+            <!-- NAV-ÜST -->
+            <div class="nav-ust">
+
+                <div class="nav-logo border">
+                    <a href="www.amazon.com.tr" aria-label="Amazon.com.tr">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+
+                <div class="nav-konum border">
+                    <a href="#">
+                        <p class="font-mini" style="margin-left: 18px; color: rgb(195,200,202); font-weight: 600;">
+                            Teslimat Konumumu: Adana 01280</p>
+                        <p class="font-nav">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Konumu güncelle
+                        </p>
+                    </a>
+                </div>
+
+                <div class="nav-search">
+                    <select name="categories" class="categories">
+                        <option value="0">Tüm Kategoriler</option>
+                        <option value="1">Bahçe</option>
+                        <option value="2">Bebek</option>
+                        <option value="3">Bilgisayar</option>
+                        <option value="4">Elektronik</option>
+                        <option value="5">Ev ve Mutfak</option>
+                        <option value="6">Gıda ve İçecek</option>
+                        <option value="7">Kitaplar</option>
+                        <option value="8">Moda</option>
+                        <option value="9">Müzik Aletleri</option>
+                        <option value="10">Spor</option>
+                    </select>
+                    <input type="search" name="search-product" class="search-product" placeholder="Ara Amazon.com.tr">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="nav-hesap border">
+                    <div class="font-mini">Merhaba, Giriş Yapın</div>
+                    <select name="hesap" class="font-nav">
+                        <option value="0">
+                            <h5>Hesap ve Listeler</h5>
+                        </option>
+                    </select>
+                </div>
+
+                <div class="nav-siparis border">
+                    <div class="font-mini">İadeler</div>
+                    <div class="font-nav">ve Siparişler</div>
+                </div>
+
+                <div class="nav-sepet border">
+                    <i class="fa-brands fa-opencart"></i>
+                    <div>
+                        <div class="font-mini">Alışveriş</div>
+                        <div class="font-nav">Sepeti</div>
+                    </div>
+                </div>
+            </div>
+            <!-- NAV-ÜST -->
+
+            <!-- NAV-ALT -->
+            <div class="nav-alt">
+                <a href="#" class="border"><i class="fa-solid fa-bars"></i> Tümü</a>
+                <a href="#" class="border">Çok Satanlar</a>
+                <a href="#" class="border">Günün Fırsatları</a>
+                <a href="#" class="border">Yeni Çıkanlar</a>
+                <a href="#" class="border">Prime</a>
+                <a href="#" class="border">Hediye Fikirleri</a>
+                <a href="#" class="border">Elektronik</a>
+                <a href="#" class="border">Moda</a>
+                <a href="#" class="border">Kitap</a>
+                <a href="#" class="border">Bilgisayar</a>
+                <a href="#" class="border">Satış Yapın</a>
+                <a href="#" class="border">Hediye Kartları</a>
+                <a href="#" class="border">Amazon Ayrıcalıkları</a>
+                <a href="#" class="border">Spor ve Açık Hava Aktiviteleri</a>
+                <a href="#" class="border">Yapı Market</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+
+    </section>
+
+    <section class="shop-section">
+
+        <!-- ROW 1 -->
+        <div class="row">
+            <div class="box">
+                <h2>3 ay alışveriş senden, Prime ücreti bizden</h2>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2023/img/Prime/SIGN_UP_BOUNCEBACK_PROMO/TR23_PRIME_SIGN_UP_BOUNCEBACK_PROMO_Desktop_Card_379x304._SY304_CB574268667_.jpg"
+                    alt="img">
+                <a class="detay" href="#">Detaylı bilgi</a>
+            </div>
+
+            <div class="box">
+                <h2>Günün fırsatları</h2>
+                <div class="image-with-text">
+                    <img src="https://m.media-amazon.com/images/I/51JZNlZjtbL._AC_SY230_.jpg" alt="img">
+                    <span>
+                        <a href="#" class="indirim">%4 oranına varan</a>
+                        <a href="#" class="firsat">Fırsat</a>
+                    </span>
+                    <a href="#">Samsung Akıllı Telefonlar</a>
+                </div>
+                <a class="detay" href="#">Tüm fırsatları gör</a>
+            </div>
+
+            <div class="box">
+                <h2>Moda ürünlerinde gülümseten fiyatlar</h2>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/41/softlines_2023/pricematch/TR23_SL_PRICE_MATCHING_Desktop_Category_card_379x304._SY304_CB571201658_.jpg"
+                    alt="img">
+                <a class="detay" href="#">Alışverişe başla</a>
+            </div>
+
+            <div class="box">
+                <h2>En iyi performans gösteren ürünleri keşfet</h2>
+                <div class="box-inner">
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_New_ATF_Strategy_ZEITGEIST_NEW_CORNERS_QUAD_card_186x116._SY116_CB593054674_.jpg"
+                            alt="img">
+                        <p>Yeni gelenler</p>
+                    </span>
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_New_ATF_Strategy_ZEITGEIST_BESTSELLERS_QUAD_card_186X116._SY116_CB593054674_.jpg"
+                            alt="img">
+                        <p>Çok satanlar</p>
+                    </span>
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_New_ATF_Strategy_ZEITGEIST_BESTPERFORMERS_QUAD_card_186X116._SY116_CB593054674_.jpg"
+                            alt="img">
+                        <p>Yükselişte olanlar</p>
+                    </span>
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_New_ATF_Strategy_ZEITGEIST_BUYAGAIN_QUAD_card_186X116._SY116_CB593054674_.jpg"
+                            alt="img">
+                        <p>Yeniden satın alınanlar</p>
+                    </span>
+                </div>
+                <a class="detay" href="#">Siparişlerini incele</a>
+            </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="row">
+
+            <div class="box">
+                <h2>Ev ve yaşam ürünlerinde fırsatlar</h2>
+                <div class="box-inner">
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_SS23_OHL_1_Desktop_QUAD_card_186x116_v2._SY116_CB593394937_.jpg"
+                            alt="img">
+                        <p>Mutfak</p>
+                    </span>
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_SS23_OHL_3_Desktop_QUAD_card_186x116_v2._SY116_CB593394937_.jpg"
+                            alt="img">
+                        <p>Ev ve yaşam</p>
+                    </span>
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_SS23_OHL_2_Desktop_QUAD_card_186x116_v2._SY116_CB593394937_.jpg"
+                            alt="img">
+                        <p>Oyuncak</p>
+                    </span>
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_SS23_OHL_4_Desktop_QUAD_card_186x116_v2._SY116_CB593394937_.jpg"
+                            alt="img">
+                        <p>Spor ve Outdoor</p>
+                    </span>
+                </div>
+                <a class="detay" href="#">Tüm fırsatlar</a>
+            </div>
+
+            <div class="box">
+                <h2>Yapbozlarda yeni fırsatlar</h2>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2023/img/X_Site/XCM_CUTTLE_1606753_3271118_379x304_1X_tr_TR._SY304_CB600247431_.jpg"
+                    alt="img">
+                <a class="detay" href="#">Fırsat ürünlerini gör</a>
+            </div>
+
+            <div class="box">
+                <h2>Oyuncak figürlerinde indirim</h2>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2023/img/X_Site/XCM_CUTTLE_1606753_3271117_379x304_1X_tr_TR._SY304_CB600247431_.jpg"
+                    alt="img">
+                <a class="detay" href="#">Alışverişe başla</a>
+            </div>
+
+            <div class="box">
+                <h2>Her gün kazandıran Amazon fırsatları</h2>
+                <div class="box-inner">
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_New_ATF_Strategy_MONEY_SAVING_COUPONS_QUAD_card_186x116._SY116_CB593055843_.jpg"
+                            alt="img">
+                        <p>Kuponlar</p>
+                    </span>
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_New_ATF_Strategy_MONEY_SAVING_Amazon_Super_QUAD_card_186x116._SY116_CB593055843_.jpg"
+                            alt="img">
+                        <p>Çok al, az öde</p>
+                    </span>
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_New_ATF_Strategy_MONEY_SAVING_TODAYS_DEAL_QUAD_card_186x116._SY116_CB593055843_.jpg"
+                            alt="img">
+                        <p>Günün fırsatları</p>
+                    </span>
+                    <span>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/41/2023/ATF/TR23_New_ATF_Strategy_MONEY_SAVING_PRICE_MATCH_QUAD_card_186X116._SY116_CB593055843_.jpg"
+                            alt="img">
+                        <p>Gülümseten fiyatlar</p>
+                    </span>
+                </div>
+                <a class="detay" href="#">Tüm indirimler</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="firsatlar">
+        <div>
+            <h2>Öne Çıkan Fırsat ve Mağazalar <a href="#">Tümünü keşfet</a></h2>
+        </div>
+        <div class="row">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_todays_deals_Desktop_Bubbler_200x200._CB605256364_.jpg"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_Amazon_Super_Desktop_Bubbler_200x200._CB616213997_.jpg"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/OHL_SM/InternetFamous/TrafficDrivers/TR22_Special_Stores_Internet_Famous_Desktop_Bubbler_200x200._CB614514925_.png"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_Global_store_Desktop_Bubbler_200x200._CB605256364_.jpg"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_Gaming_store_Desktop_Bubbler_200x200._CB605256365_.jpg"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_Installment_Desktop_Bubbler_200x200._CB605256364_.jpg"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2023/Cem/Large_Pack/TR23_Special_Stores_LARGE_PACKS_Desktop_Bubbler_200x200._CB572257936_.png"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_Kuponlar_Desktop_Bubbler_200x200_v2._CB594271367_.png"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_Home_store_Desktop_Bubbler_200x200._CB605256365_.jpg"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_Baby_store_Desktop_Bubbler_200x200._CB605256364_.jpg"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_FBA_Desktop_Bubbler_200x200._CB605256365_.jpg"
+                alt="img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2022/GW/Specialstores/Desktop/TR22_Special_Stores_B2B_Store_Desktop_Bubbler_200x200._CB591786663_.png"
+                alt="img">
+        </div>
+    </section>
+
+    <section class="firsatlar">
+        <div>
+            <h2>Günün Fırsatları <a href="#">Fırsatları keşfedin</a></h2>
+        </div>
+        <div class="row">
+
+            <div class="box-gunun-firsatlari">
+                <img src="https://m.media-amazon.com/images/I/41CUJ8r938L._AC_SY200_.jpg" alt="img">
+                <span>
+                    <a href="#" class="indirim">%23 oranına varan</a>
+                    <a href="#" class="firsat">Fırsat</a>
+                </span>
+                <a href="#">Benetton ve Pierre Cardin Valizler</a>
+            </div>
+
+            <div class="box-gunun-firsatlari">
+                <img src="https://m.media-amazon.com/images/I/51GPsP0TZyL._AC_SY200_.jpg" alt="img">
+                <span>
+                    <a href="#" class="indirim">Prime Fırsatı</a>
+                    <a href="#" class="firsat"></a>
+                </span>
+                <a href="#">Aptamil Ürünlerinde 750 TL'ye 50 TL İndirim</a>
+            </div>
+
+            <div class="box-gunun-firsatlari">
+                <img src="https://m.media-amazon.com/images/I/51Ooq6GDTkL._AC_SY200_.jpg" alt="img">
+                <span>
+                    <a href="#" class="indirim">%8 oranına varan</a>
+                    <a href="#" class="firsat">Fırsat</a>
+                </span>
+                <a href="#">L’Oréal Paris, Maybelline New York ve Garnier Ürünleri</a>
+            </div>
+
+            <div class="box-gunun-firsatlari">
+                <img src="https://m.media-amazon.com/images/I/51JZNlZjtbL._AC_SY200_.jpg" alt="img">
+                <span>
+                    <a href="#" class="indirim">%4 oranına varan</a>
+                    <a href="#" class="firsat">Fırsat</a>
+                </span>
+                <a href="#">Samsung Akıllı Telefonlar</a>
+            </div>
+
+            <div class="box-gunun-firsatlari">
+                <img src="https://m.media-amazon.com/images/I/61CXUkGEuBL._AC_SY200_.jpg" alt="img">
+                <span>
+                    <a href="#" class="indirim">%7 oranına varan</a>
+                    <a href="#" class="firsat">Fırsat</a>
+                </span>
+                <a href="#">Nestle Ürünlerinde İndirimler</a>
+            </div>
+
+            <div class="box-gunun-firsatlari">
+                <img src="https://m.media-amazon.com/images/I/51Hn64L0j9L._AC_SY200_.jpg" alt="img">
+                <span>
+                    <a href="#" class="indirim">%27 oranına varan</a>
+                    <a href="#" class="firsat">Fırsat</a>
+                </span>
+                <a href="#">Red Tape Sezon Sonu Ayakkabılar</a>
+            </div>
+
+            <div class="box-gunun-firsatlari">
+                <img src="https://m.media-amazon.com/images/I/41GYfmj9HFL._AC_SY200_.jpg" alt="img">
+                <span>
+                    <a href="#" class="indirim">Fırsat</a>
+                    <a href="#" class="firsat"></a>
+                </span>
+                <a href="#">Seçili Kış Ürünlerinde Sepet İndirimi</a>
+            </div>
+
+            <div class="box-gunun-firsatlari">
+                <img src="https://m.media-amazon.com/images/I/31SdruR-2HL._AC_SY200_.jpg" alt="img">
+                <span>
+                    <a href="#" class="indirim">%9 oranına varan</a>
+                    <a href="#" class="firsat">Fırsat</a>
+                </span>
+                <a href="#">MSI Monitörler ve Bilgisayar Bileşenleri</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <button>Başa Dön</button>
+        <section>
+            <div class="part1">
+                <div class="hakkimizda">
+                    <h3>Hakkımızda</h3>
+                    <a href="#">Kariyer</a>
+                    <a href="#">İletişim</a>
+                    <a href="#">Bilgi Toplumu <br>Hizmetleri</a>
+                    <a href="#">Amazon Science</a>
+                </div>
+
+                <div class="hakkimizda">
+                    <h3>Bizimle Para Kazanın</h3>
+                    <a href="#">Markanızı Koruyun ve <br>Oluşturun</a>
+                    <a href="#">Amazon'da Satış Yapın</a>
+                    <a href="#">Ürünlerinizin Reklamını <br>Yapın</a>
+                </div>
+
+                <div class="hakkimizda">
+                    <h3>Amazon Ödeme Araçları</h3>
+                    <a href="#">Kredi Kartı</a>
+                    <a href="#">Taksitli Ödeme</a>
+                </div>
+
+                <div class="hakkimizda">
+                    <h3>Size Yardımcı Olalım</h3>
+                    <a href="#">COVID-19 ve Amazon</a>
+                    <a href="#">Kargoları Takip Edin veya <br>Siparişleri Görüntüleyin</a>
+                    <a href="#">Teslimat Ücretleri ve <br>Politikaları</a>
+                    <a href="#">İadeler</a>
+                    <a href="#">Geri Dönüşüm</a>
+                    <a href="#">Amazon Mobil <br>Uygulaması</a>
+                    <a href="#"> Müşteri Hizmetleri</a>
+                    <a href="#">Erişilebilirlik</a>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="part2">
+                <img src="images/logo-footer.png" alt="logo">
+                <div class="countries">
+                    <span>Avusturalya</span>
+                    <span>Brezilya</span>
+                    <span>Kanada</span>
+                    <span>Çin </span>
+                    <span>Fransa</span>
+                    <span>Almanya</span>
+                    <span>Hindistan</span>
+                    <span>İtalya</span>
+                    <span>Japonya</span>
+                    <span>Meksika </span>
+                    <span>Hollanda</span>
+                    <span>İspanya</span>
+                    <span>Birleşik Arap Emirlikleri</span>
+                    <span>Birleşik Krallık </span>
+                    <span>ABD </span>
+                    <span>Singapur </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottom">
+            <div class="part3">
+                <div class="foot-end">
+                    <h6>Amazon WEB Services</h6>
+                    <a href="#">Ölçeklenebilir Bulut</a>
+                    <a href="#">Bilgi İşlem Hizmetleri</a>
+                </div>
+
+                <div class="foot-end">
+                    <h6>East Done</h6>
+                    <a href="#">Tasarımcı Erkek Moda Ürünlerinleri</a>
+                </div>
+
+                <div class="foot-end">
+                    <h6>Shopbop</h6>
+                    <a href="#">Tasarım Ürünler</a>
+                    <a href="#">Moda Markalar</a>
+                </div>
+            </div>
+            <div class="part4">
+                <div>
+                    <span>Kullanım ve Satış Koşulları</span>
+                    <span>Aydınlatma Bildirimi</span>
+                    <span>Çerezler Hakkında</span>
+                    <span>İlgi Alanına Dayalı Tanıtımlar</span>
+                    <span>İşlem Rehberi</span>
+                </div>
+                <div>
+                    © 1996-2024, Amazon.com, Inc. veya bağlı kuruluşları
+                </div>
+            </div>
+        </section>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
